@@ -1,0 +1,76 @@
+html {
+    text-align: center;
+}
+.addTodo {
+  padding: 2px 6px;
+  margin: 10px;
+}
+.card-output-div-lol {
+  margin: 10px;
+}
+.remove-btn {
+  padding: 4px 6px;
+  margin: 10px;
+}
+.home-todo-input {
+  margin: 10px;
+  width: 50vw;
+}
+.todo-card {
+  margin: 10px;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  /* transition: transform 1.4s; */
+}
+/* .todo-card:hover {
+  border-radius: 5%;
+  transform: scale(1.1);
+} */
+.add-todo-form-card {
+  width: 50rem;
+  padding: 30px;
+  /* height: 100rem; */
+}
+/* .todo-div {
+  display: flex;
+  flex-wrap: wrap; Wrap the cards when they exceed the container width
+  justify-content: center;
+} */
+.remove-btn {
+  transition: transform 0.4s;
+}
+.remove-btn:hover {
+  transform: scale(1.1);
+}
+.todo-title {
+  margin: 20px;
+}
+.todo-name {
+  margin: 20px;
+}
+.check-list-icon {
+  transform: scale(1.5);
+  transition: transform 0.2s;
+}
+.check-list-icon:hover {
+  transform: scale(1.65);
+  transition: transform 0.2s;
+}
+.check-list-icon:active {
+  transform: scale(1.5); 
+}
+.home-placeholder-input::placeholder {
+  transition: transform 0.2s; 
+}
+.home-placeholder-input:hover::placeholder {
+  color: rgb(54, 54, 54);
+}
+/* .todo-card {
+  width: adju;
+} */
+/* .todo-list {
+  width: 20rem;
+  align-items: center;
+  justify-content: center;
+} */
